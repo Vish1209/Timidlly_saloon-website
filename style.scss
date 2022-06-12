@@ -1,0 +1,162 @@
+body {
+
+    logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    li {
+        text-align: right;
+        display: inline-block;
+        margin-left: 90px;
+        font-size: 1.25rem;
+    }
+
+    li:hover {
+        cursor: pointer;
+        color: rgb(156, 140, 243);
+    }
+
+    ul {
+        float: right;
+        margin-top: -40px;
+        margin-right: 70px;
+    }
+
+    .bgcolor {
+        position:static;
+        top: 60px;
+        left: 37px;
+        width: 95%;
+        height: 80%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .img {
+        width: 1500px;
+        height: 700px;
+        margin-top: -50px;
+        // position: sticky; // if remove this then it will cover background part otherwise cover text
+    }
+
+    .para {
+        color: white;
+        font-size: 1.25rem;
+        margin-left: 50px;
+        margin-top: 20px;
+        text-align:center;
+    }
+
+    .heading {
+        color: white;
+        font-size: 5rem;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        margin-top: 80px;
+    }
+
+    p {
+        text-align: center;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 70px;
+        font-size: 17px;
+    }
+
+    .rule {
+        padding-top: 200px;
+        height: 20px;
+        color: black;
+        width: 100%;
+    }
+
+    .carts{
+        gap: 3%;
+        justify-content: center;
+        text-align: center;
+        flex: 25%;
+    }
+    .cart-item{
+        justify-content: center;
+        text-align: center;
+        flex: 25%;
+
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        margin: 20px;
+        text-decoration: none;
+        border-radius: 50%;
+        display: flexbox;
+      }
+      .fa:hover {
+        opacity: 0.7;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+        margin-left: 630px;
+      }
+      .fa-linkedin {
+        background: #0077b5;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      
+   
+    @media only screen and (max-width: 900px) {
+        ul{
+            margin-top: 30px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        li{
+            float: inline-block;
+        }
+        .bgcolor{
+            margin-top: 100px;
+            width: 145%;
+        }
+        .img{
+            width: 630px;
+            height: 600px;
+        }
+        .para{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .heading{
+            text-align: center;
+            padding-right: 90px;
+        }
+        h1 {
+            text-align: center;
+            margin-left: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            margin-top: 60px;
+        }
+        p{
+            display: inline-block;
+            margin-right: -150px;
+        }
+
+        
+    }
+
+
+}
